@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		108F6C478E56A4CA081F8E09 /* Pods_Example_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C8DD7BE43A8987854CA726 /* Pods_Example_ExampleTests.framework */; };
 		456193561EADC00AC505B531 /* Pods_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1435FAD2F735E43F383BE96 /* Pods_ExampleTests.framework */; };
+		65FF1B3E1DE321D8007B0845 /* SideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF1B3D1DE321D8007B0845 /* SideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF1B441DE331D9007B0845 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF1B401DE331D9007B0845 /* SideMenuManager.swift */; };
+		65FF1B451DE331D9007B0845 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF1B411DE331D9007B0845 /* SideMenuTransition.swift */; };
+		65FF1B461DE331D9007B0845 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF1B421DE331D9007B0845 /* UISideMenuNavigationController.swift */; };
+		65FF1B471DE331D9007B0845 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF1B431DE331D9007B0845 /* UITableViewVibrantCell.swift */; };
 		7B48A0D61DCB2487002990A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B48A0D51DCB2487002990A1 /* AppDelegate.swift */; };
 		7B48A0DD1DCB2487002990A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B48A0DC1DCB2487002990A1 /* Assets.xcassets */; };
 		7B48A0EB1DCB2487002990A1 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B48A0EA1DCB2487002990A1 /* Tests.swift */; };
@@ -18,7 +23,7 @@
 		7B552D5D1DCC65830010301C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B552D5C1DCC65830010301C /* Launch Screen.storyboard */; };
 		7B5FA9B61DCB269700278DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5FA9B51DCB269700278DF6 /* Main.storyboard */; };
 		84B489B51DD469B000D6CB43 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84B489B21DD469B000D6CB43 /* LICENSE */; };
-		84B489B71DD469B000D6CB43 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 84B489B41DD469B000D6CB43 /* README.md */; };
+		84B489B71DD469B000D6CB43 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84B489B41DD469B000D6CB43 /* README.md */; };
 		84B489BA1DD469DA00D6CB43 /* SideMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84B489B91DD469DA00D6CB43 /* SideMenu.podspec */; };
 		ACD6DAED90DE36FEA68CDF38 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47896ABC5C8830D88945A8D3 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +43,11 @@
 		281FB58A39C022692CEEBF0D /* Pods-Example-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example-ExampleTests/Pods-Example-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47896ABC5C8830D88945A8D3 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C8DD7BE43A8987854CA726 /* Pods_Example_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FF1B3D1DE321D8007B0845 /* SideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SideMenu.h; path = SideMenu/SideMenu.h; sourceTree = "<group>"; };
+		65FF1B401DE331D9007B0845 /* SideMenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = SideMenu/SideMenuManager.swift; sourceTree = "<group>"; };
+		65FF1B411DE331D9007B0845 /* SideMenuTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = SideMenu/SideMenuTransition.swift; sourceTree = "<group>"; };
+		65FF1B421DE331D9007B0845 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = SideMenu/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		65FF1B431DE331D9007B0845 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = SideMenu/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
 		7B48A0D31DCB2487002990A1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B48A0D51DCB2487002990A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B48A0DC1DCB2487002990A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,9 +99,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65FF1B391DE31DA3007B0845 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		65FF1B3F1DE33097007B0845 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				65FF1B401DE331D9007B0845 /* SideMenuManager.swift */,
+				65FF1B411DE331D9007B0845 /* SideMenuTransition.swift */,
+				65FF1B421DE331D9007B0845 /* UISideMenuNavigationController.swift */,
+				65FF1B431DE331D9007B0845 /* UITableViewVibrantCell.swift */,
+				65FF1B3D1DE321D8007B0845 /* SideMenu.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		7B48A0D41DCB2487002990A1 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				65FF1B391DE31DA3007B0845 /* SupportingFiles */,
 				7B48A0D51DCB2487002990A1 /* AppDelegate.swift */,
 				7B48A0F31DCB2518002990A1 /* MainViewController.swift */,
 				7B48A0F41DCB2518002990A1 /* PresentedViewController.swift */,
@@ -116,6 +146,7 @@
 		7B9DC8FA1DC6E8C1000D4007 = {
 			isa = PBXGroup;
 			children = (
+				65FF1B3F1DE33097007B0845 /* Source */,
 				84B489B81DD469B900D6CB43 /* Podspec Metadata */,
 				7B48A0D41DCB2487002990A1 /* Example */,
 				7B48A0E91DCB2487002990A1 /* ExampleTests */,
@@ -175,6 +206,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FF1B3E1DE321D8007B0845 /* SideMenu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +341,7 @@
 			files = (
 				84B489BA1DD469DA00D6CB43 /* SideMenu.podspec in Resources */,
 				84B489B51DD469B000D6CB43 /* LICENSE in Resources */,
+				84B489B71DD469B000D6CB43 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +464,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B489B71DD469B000D6CB43 /* README.md in Sources */,
+				65FF1B441DE331D9007B0845 /* SideMenuManager.swift in Sources */,
+				65FF1B451DE331D9007B0845 /* SideMenuTransition.swift in Sources */,
+				65FF1B461DE331D9007B0845 /* UISideMenuNavigationController.swift in Sources */,
+				65FF1B471DE331D9007B0845 /* UITableViewVibrantCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +653,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/SideMenu/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonkykong.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -636,6 +673,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/SideMenu/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonkykong.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
